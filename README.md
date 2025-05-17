@@ -9,18 +9,18 @@ This project explores the use of Machine Learning (ML) models for loan approval 
 - Apply **bias mitigation** techniques to improve fairness while maintaining model accuracy.
 - Integrate both **predictive performance** and **ethical AI practices**.
 
-## 🚀 Project Structure
+## 📁 Project Structure
 
-responsible-ai-loan-approval/
-├── notebooks/
-│ ├── 1-loan-approval-prediction.ipynb
-│ └── 2-fairness-evaluation-and-mitigation.ipynb
-├── data/
-│ └── dataset.csv
-├── images/
-│ └── fairness-metrics.png
-├── requirements.txt
-└── README.md
+- responsible-ai-loan-approval/
+  - notebooks/
+    - 1-loan-approval-prediction.ipynb
+    - 2-fairness-evaluation-and-mitigation.ipynb
+  - data/
+    - dataset.csv
+  - images/
+    - fairness-metrics.png
+  - requirements.txt
+  - README.md
 
 ## 📊 Methodology
 
