@@ -44,13 +44,13 @@ responsible-ai-loan-approval/
 
 # Clone repo
 
-git clone https://github.com/Simondelali/responsible-ai-loan-approval.git
-cd responsible-ai-loan-approval
+- git clone https://github.com/Simondelali/responsible-ai-loan-approval.git
+- cd responsible-ai-loan-approval
 
 # Create virtual environment
 
-python3 -m venv venv
-source venv/bin/activate
+- python3 -m venv venv
+- source venv/bin/activate
 
 # Install dependencies
 
