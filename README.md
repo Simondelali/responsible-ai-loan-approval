@@ -12,14 +12,11 @@ This project explores the use of Machine Learning (ML) models for loan approval 
 ## 🚀 Project Structure
 
 responsible-ai-loan-approval/
-│
 ├── notebooks/
 │ ├── 1-loan-approval-prediction.ipynb
 │ └── 2-fairness-evaluation-and-mitigation.ipynb
-│
 ├── data/
 │ └── dataset.csv
-│
 ├── images/
 │ └── fairness-metrics.png
 ├── requirements.txt
@@ -59,3 +56,17 @@ pip install -r requirements.txt
 # Launch Jupyter Notebook
 
 jupyter notebook
+
+## ✅ Phase 1: Loan Approval Prediction Summary
+
+The best-performing model was **Gaussian Naive Bayes (78.86% accuracy)**, followed by Random Forest (76.4%), K-Nearest Neighbors (75.6%), and Decision Tree (73.9%).
+
+### 📊 Key Highlights:
+
+- **Best Model**: Gaussian Naive Bayes (78.86% accuracy)
+- **F1-Score**: 85.87%
+- **Observation**: High accuracy for approvals, lower performance on rejections, indicating potential fairness concerns.
+
+### 📈 Conclusion:
+
+The baseline prediction model performs well overall but shows bias towards loan approvals, motivating the need for fairness analysis in **Phase 2**.
