@@ -70,3 +70,19 @@ The best-performing model was **Gaussian Naive Bayes (78.86% accuracy)**, follow
 ### 📈 Conclusion:
 
 The baseline prediction model performs well overall but shows bias towards loan approvals, motivating the need for fairness analysis in **Phase 2**.
+
+## ✅ Phase 2: Fairness Evaluation and Responsible AI Auditing
+
+Fairness was assessed using **Fairlearn** with multiple group fairness metrics to capture both **selection fairness** and **outcome fairness** without applying artificial bias modifications.
+
+### 📈 Key Fairness Results:
+
+- **Overall Accuracy:** ~84.5%
+- **Demographic Parity Difference (DPD):** 0.0963 – ✅ _Good (Balanced access rates across gender)_
+- **Equalized Odds Difference (EOD):** 0.0808 – ✅ _Good (Balanced error rates across gender)_
+- **Recall (Sensitivity):** 100% for female applicants
+- **Precision:** 77% for females, 85% for males
+
+### 📌 Summary:
+
+The fairness audit demonstrates that the model maintains **fair decision-making** across gender groups in both access and prediction outcomes, following responsible AI guidelines suitable for ethical use in financial decision systems.
